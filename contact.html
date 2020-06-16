@@ -9,44 +9,25 @@
 
 <body>
     <hr>
-    <a href = "https://minguyen01.github.io">Home</a>
-    <a href = "https://minguyen01.github.io/about">About</a>
-    <a href = "https://minguyen01.github.io/skills">Skills</a>
-    <a href = "https://minguyen01.github.io/involvements">Involvements</a>
-    <a href = "https://minguyen01.github.io/contact">Contact</a>
+    <a href="https://minguyen01.github.io">Home</a>
+    <a href="https://minguyen01.github.io/about">About</a>
+    <a href="https://minguyen01.github.io/skills">Skills</a>
+    <a href="https://minguyen01.github.io/involvements">Involvements</a>
+    <a href="https://minguyen01.github.io/contact">Contact</a>
     <hr>
     <p>mcn007minh@gmail.com</p>
-    <a href = "https://www.linkedin.com/in/minhnguyensf/">LinkedIn</a>
-    <a href = "https://github.com/minguyen01">Github</a>
-    <a href = "https://devpost.com/minguyen01">Devpost</a>
-    <form class = "" action = "contact.html" method = "post">
-        <table>
-            <thead>
-                <th>
-                    <br>
-                    Contact Me
-                </th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <label for = "name">Name</label>
-                    </td>
-                    <td>
-                        <input type = "text" name = "contact" id = "name" value = ""><br>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for = "message">Message</label>
-                    </td>
-                    <td>
-                        <input type = "text" name = "contact" id = "message" value = "" size = "20"><br>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <input type = "submit" name = "contact">
+    <a href="https://www.linkedin.com/in/minhnguyensf/">LinkedIn</a>
+    <a href="https://github.com/minguyen01">Github</a>
+    <a href="https://devpost.com/minguyen01">Devpost</a><br><br>
+    <strong>Contact Me:</strong><br>
+    <form class="" action="mailto:mcn007minh@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="" size="45" required><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" value="" size="45" required><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" rows="10" cols="45" required></textarea><br>
+        <input type="submit" value="Send Message">
     </form>
 </body>
 
