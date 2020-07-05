@@ -1,0 +1,50 @@
+body
+{
+   background-color: #dae5eb; 
+}
+
+h1
+{
+    color: #0f4c75;
+}
+
+h3
+{
+    color: #3282b8;
+}
+
+p
+{
+    color: #1b262c;
+}
+
+a
+{
+    color: #3282b8;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+td
+{
+    color: #1b262c;
+}
+
+th
+{
+    color: #1b262c;
+}
+
+hr
+{
+    border-style: none;
+    border-top-style: dashed;
+    border-width: 8px;
+    border-color: #0f4c75;
+    width: 45%;
+}
+
+.links
+{
+    text-align: center;
+}
