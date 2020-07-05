@@ -1,6 +1,22 @@
+a
+{
+    color: #3282b8;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 body
 {
    background-color: #dae5eb; 
+}
+
+hr
+{
+    border-color: #0f4c75;
+    border-style: none;
+    border-top-style: dashed;
+    border-width: 8px;
+    width: 45%;
 }
 
 h1
@@ -18,13 +34,6 @@ p
     color: #1b262c;
 }
 
-a
-{
-    color: #3282b8;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
 td
 {
     color: #1b262c;
@@ -35,16 +44,19 @@ th
     color: #1b262c;
 }
 
-hr
-{
-    border-style: none;
-    border-top-style: dashed;
-    border-width: 8px;
-    border-color: #0f4c75;
-    width: 45%;
-}
-
 .links
 {
     text-align: center;
+}
+
+.profile
+{
+    background: #3282b8;
+    border-color: #1b262c;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
 }
