@@ -3,30 +3,41 @@ a
     color: #3282b8;
     padding-left: 1%;
     padding-right: 1%;
+    text-decoration: none;
+}
+
+a:hover
+{
+  color: #5fb3eb  
 }
 
 body
 {
-   background-color: #dae5eb; 
+    margin: 0px;
+    background-color: #dae5eb;
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 hr
 {
     border-color: #0f4c75;
-    border-style: none;
-    border-top-style: dashed;
-    border-width: 8px;
+    border-style: solid;
+    border-width: 0.25rem;
+    border-radius: 50rem;
     width: 45%;
 }
 
 h1
 {
     color: #0f4c75;
+    font-family: 'Raleway', sans-serif;
 }
 
-h3
+h2, h3
 {
     color: #3282b8;
+    font-family: 'Raleway', sans-serif;
 }
 
 p
@@ -44,9 +55,23 @@ th
     color: #1b262c;
 }
 
+.banner
+{
+    padding: 30px;
+}
+
 .links
 {
-    text-align: center;
+}
+
+.education
+{
+    padding: 30px;
+}
+
+.interests
+{
+    padding: 30px;
 }
 
 .profile
