@@ -86,11 +86,6 @@ p, td
     display:inline-block;
 }
 
-.nav-link:hover
-{
-    padding-left: 10px; 
-}
-
 .nav-name
 {
     padding: 0 20px;
@@ -118,7 +113,7 @@ p, td
 
 .top
 {
-    padding-top: 50px;
+    padding-top: 7.5vw;
 }
 
 .end
