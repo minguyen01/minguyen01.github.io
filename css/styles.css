@@ -113,10 +113,25 @@ p, td
 
 .top
 {
-    padding-top: 7.5vw;
+    padding-top: 100px;
 }
 
 .end
 {
     padding-bottom: 150px;
+}
+
+.inv-title
+{
+    margin-bottom: 0px;
+}
+
+.inv-date
+{
+    margin-top: 5px;
+}
+
+.selected
+{
+    color: #64bcf7;
 }
