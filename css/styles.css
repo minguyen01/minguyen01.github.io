@@ -43,7 +43,6 @@ a:hover
 
 hr
 {
-    width: 45%;
     border-color: #0f4c75;
     border-style: solid;
     border-radius: 50rem;
@@ -62,7 +61,7 @@ h2, h3
     font-family: 'Raleway', sans-serif;
 }
 
-p, td
+p
 {
     color: #1b262c;
 }
@@ -134,4 +133,24 @@ p, td
 .selected
 {
     color: #64bcf7;
+}
+
+.para-body
+{
+    width: 50%;
+    display:inline-block
+}
+
+.horizontal-line
+{
+    width: 45%;
+}
+
+.vertical-line
+{
+    height: 125px;
+    width: 5px;
+    background-color: #0f4c75;
+    margin-top:0px;
+    margin-bottom:0px;
 }
