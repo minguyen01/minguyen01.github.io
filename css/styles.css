@@ -43,6 +43,7 @@ a:hover
 
 hr
 {
+    background-color: #0f4c75;
     border-color: #0f4c75;
     border-style: solid;
     border-radius: 50rem;
@@ -150,7 +151,26 @@ p
 {
     height: 125px;
     width: 5px;
-    background-color: #0f4c75;
     margin-top:0px;
     margin-bottom:0px;
+}
+
+.banner-text
+{
+    font-size: 5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.no-margin
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.no-bottom-margin
+{
+    margin-bottom: 0px;
 }
