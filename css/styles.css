@@ -3,7 +3,7 @@ body
     position:relative;
     margin: 0;
     min-height: 100vh;
-    background-color: #dae5eb;
+    background-color: #ffffff;
     text-align: center; 
     font-family: 'Montserrat', sans-serif;
 }
@@ -94,11 +94,8 @@ p
 
 .profile
 {
-    background: #3282b8;
-    border-color: #1b262c;
-    border-radius: 100%;
-    border-style: solid;
-    border-width: 5px;
+    background: #0f4c75;
+    border-radius: 5%;
     padding: 5px;
     width: 300px;
     height: 300px;
