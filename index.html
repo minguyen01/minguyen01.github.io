@@ -1,52 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The personal website of Minh Nguyen">
-    <title>Minh Nguyen | Home</title>
+    <title>Home</title>
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <nav>
+        <a class="nav-element blue" href="index.html">Home</a>
+        <a class="nav-element" href="skills.html">Skills</a>
+        <a class="nav-element" href="projects.html">Projects</a>
+        <a class="nav-element" href="experience.html">Experience</a>  
+    </nav>
 
-    <header>
-        <h2 class="nav-name">Minh Nguyen</h2>
-        <nav>
-            <ul class="nav-list">
-                <li class="nav-element"><a class="nav-link selected" href="https://minguyen01.github.io">Home</a></li>
-                <li class="nav-element"><a class="nav-link" href="https://minguyen01.github.io/about">About</a></li>
-                <li class="nav-element"><a class="nav-link" href="https://minguyen01.github.io/skills">Skills</a></li>
-                <li class="nav-element"><a class="nav-link" href="https://minguyen01.github.io/involvements">Involvements</a></li>
-                <li class="nav-element"><a class="nav-link" href="https://minguyen01.github.io/projects">Projects</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="section flex fill-screen">
+        <div class="profile-div">
+            <img class="profile" src="images/profile.jpg" alt="profile">
+        </div>
+        <div class="profile-div">
+            <p>Hello! My name is</p>
+            <h1 class="blue">Minh Nguyen</h1>
+            <p>and I'm a <span class="blue">computer scientist</span></p>
+        </div>
+    </div>
 
-    <div class="section top end">
-        <img class="profile" src="images/profile.jpg" alt="minh profile picture">
-        <h1 class="no-bottom-margin">Minh Nguyen</h1>
-        <h2 class="no-margin">mcn007minh@gmail.com</h2>
+    <div class="divider"></div>
 
-        <p class="para-body">
-            <h3>College Student</h3>
-            University of California, Irvine<br>
-            <strong>Bachelor of Science, Computer Science</strong><br>
-            <em>September 2019 - Present</em>
+    <div class="section center-text">
+        <div class="header"><h2>Education</h2></div>
+        <div class="subheader"><p>Bachelor of Science, Computer Science</p></div>
+        <p>University of California, Irvine</p>
+        <p>September 2019 - June 2023</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section center-text condense">
+        <div class="header"><h2>About</h2></div>
+        <p>
+            I grew up in San Francisco, California. I am a <b>recent graduate</b> at the <b>University of California, Irvine</b> 
+            who aspires to be a <b>software engineer</b> that not only creates reliable and robust programs, but also clear and clean design. 
+            My <b>experiences from college</b> include planning/managing dance events with around 300+ attendees, working in a team where
+            important decisions with tradeoffs must be made, and helping other students progress as a programmer through tutoring.
         </p>
     </div>
 
     <footer>
-        <a class="foot-link" href="https://www.linkedin.com/in/minhnguyensf/">LinkedIn</a>
-        <a class="foot-link" href="https://github.com/minguyen01">Github</a>
-        <a class="foot-link" href="https://devpost.com/minguyen01">Devpost</a>    
-        <p class="copyright">©2022 Minh Nguyen</p>
+        <a class="footer-element" href="mailto:mcn007minh@gmail.com">
+            <img class="footer-icon" src="images/email-icon.png">
+        </a>
+        <a class="footer-element" href="https://www.linkedin.com/in/minhnguyensf/">
+            <img class="footer-icon"  src="images/linkedin-icon.png">
+        </a>
+        <a class="footer-element" href="https://github.com/minguyen01">
+            <img class="footer-icon"  src="images/github-icon.png">
+        </a>
+        </div>
     </footer>
-    
 </body>
 
 </html>
