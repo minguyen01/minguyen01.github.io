@@ -111,7 +111,7 @@ a:hover {
 }
 
 .fill-screen {
-    height: 85vh;
+    min-height: 85vh;
 }
 
 .blue {
@@ -242,4 +242,32 @@ a:hover {
 .square-image:hover
 {
     object-position: 100% 100%;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 480px) {
+    .nav-element {
+        font-size: 25px;
+        margin: 17px; 
+    }
+
+    .profile {
+        height: 275px;
+        width: 275px;
+    }
+
+    .profile-div {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .skill-bars-div {
+        display: block;
+    }
+
+    .project-img {
+        max-width: 90%;
+        margin: 30px;
+        box-shadow: 0 0 10px black;
+    }
 }
