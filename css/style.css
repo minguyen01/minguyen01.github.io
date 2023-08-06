@@ -124,12 +124,26 @@ a:hover {
     height: 400px;
     width: 400px;
     margin: 0px 30px;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 5px black;
 }
 
 .profile-div {
     font-size: 50px;
     margin: 30px 0px 30px 0px;
+    text-shadow: 4px 4px black;
+}
+
+.profile-text {
+    box-shadow: 0 0 10px black;
+}
+
+.profile-background {
+    background-image: url("../images/sunset.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 30px;
+    box-shadow: inset 0 0 10px black;
 }
 
 /* Skills Section */
