@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat&display=swap" rel="stylesheet">
+    <script src="js/contact.js" defer></script>
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
 </head>
 
 <body>
@@ -38,6 +40,9 @@
         <p>University of California, Irvine</p>
         <p>September 2019 - June 2023</p>
     </div>
+
+    <div class="divider"></div>
+
     <div class="section center-text condense">
         <div class="header"><h2>About</h2></div>
         <p>
@@ -47,6 +52,31 @@
             important decisions with tradeoffs must be made, and helping other students progress as a programmer through tutoring.
         </p>
     </div>
+
+    <div class="divider"></div>
+
+    <div class="section center-text">
+        <div class="header"><h2>Contact</h2></div>
+        <form class="section" onsubmit="sendEmail(); reset(); return false;">
+            <div class="contact-container">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="message-box">
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" style="height:200px"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </form>
+    </div>
+
 
     <footer>
         <a class="footer-element" href="mailto:mcn007minh@gmail.com">

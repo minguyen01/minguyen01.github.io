@@ -34,6 +34,38 @@ a:hover {
     transition: all 0.3s; 
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit], input[type=reset] {
+    padding: 10px 20px;
+    margin: 0px 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #272829;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    transition: all 0.3s;
+}
+  
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #47B5FF;
+    transition: all 0.3s;
+}
+
 /* Structure */
 
 .section {
@@ -130,11 +162,14 @@ a:hover {
 .profile-div {
     font-size: 50px;
     margin: 30px 0px 30px 0px;
+}
+
+.profile-div > h1 {
     text-shadow: 4px 4px black;
 }
 
-.profile-text {
-    box-shadow: 0 0 10px black;
+.profile-div > p {
+    text-shadow: 3px 3px black;
 }
 
 .profile-background {
@@ -144,6 +179,20 @@ a:hover {
     margin: 0px;
     padding: 30px;
     box-shadow: inset 0 0 10px black;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-gap: 0px 30px;
+    justify-content: center;
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.message-box {
+    grid-column: span 2;
 }
 
 /* Skills Section */
